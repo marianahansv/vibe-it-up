@@ -1,7 +1,7 @@
 # vibe-it-up
 Vibe It Up is a fun web app that suggests songs based on your mood. Simply adjust the slider and the site will pick a song to match how you're feeling. There's 10 songs to choose from!
 
-View the website here: [Vibe It Up on GitHub Pages](marianahansv.github.io/vibe-it-up/)
+View the website here: [Vibe It Up]((https://marianahansv.github.io/vibe-it-up/)
 
 ## Features:
 - **Mood-based song suggestions**: The app gives you a song based on where you position the mood slider.
