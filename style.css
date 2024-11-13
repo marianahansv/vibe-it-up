@@ -1,0 +1,78 @@
+* {
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(182, 172, 234);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+h2 {
+  font-size: 37px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+input {
+  display: block;
+}
+
+.slideContainer {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+#selectValue {
+  margin-top: 20px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 18px;
+  outline: none;
+  opacity: 0.7;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 30px;
+  height: 30px;
+  background: #cfc8e9;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input.input-button {
+  background: #9fa7eb;
+  color: white;
+  border-radius: 10px;
+  border-color: #abb1eb;
+  position: relative;
+  padding: 20px 40px;
+  font-size: 18px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input.input-button:hover {
+  background-color: #8188ca;
+}
